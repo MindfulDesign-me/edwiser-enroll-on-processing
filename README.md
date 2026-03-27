@@ -1,7 +1,8 @@
 # Edwiser — Enroll on Processing (WordPress MU-plugin)
 
 **Author:** [Mindful Design](https://mindfuldesign.me)  
-**Support:** [support@mindfuldesign.me](mailto:support@mindfuldesign.me)
+**Support:** [support@mindfuldesign.me](mailto:support@mindfuldesign.me)  
+**Repository:** [github.com/MindfulDesign-me/edwiser-enroll-on-processing](https://github.com/MindfulDesign-me/edwiser-enroll-on-processing)
 
 Edwiser Bridge Pro’s WooCommerce integration enrolls learners when an order reaches **Completed**. If your shop also sells physical goods, orders may stay in **Processing** until items ship—so course buyers are not enrolled until much later.
 
