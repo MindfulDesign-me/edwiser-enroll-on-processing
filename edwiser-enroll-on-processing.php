@@ -3,9 +3,9 @@
  * Plugin Name: Edwiser — Enroll on Processing
  * Plugin URI: https://github.com/MindfulDesign-me/edwiser-enroll-on-processing
  * Description: Optionally enrolls Moodle courses when a WooCommerce order reaches Processing (Edwiser Bridge Pro). Settings: Edwiser Bridge → Settings → Woo Integration.
- * Author: Mindful Design
+ * Author: MindfulDesign
  * Author URI: https://mindfuldesign.me
- * Version: 1.0.1
+ * Version: 1.0.2
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  *
@@ -123,7 +123,7 @@ function eb_eop_register_settings_fields( $settings ) {
 		),
 		array(
 			'title'    => __( 'Enroll when order is Processing', 'edwiser-enroll-on-processing' ),
-			'desc'     => __( 'Enroll learners in Moodle as soon as the order reaches <strong>Processing</strong> (paid / ready to fulfill). Use this if orders that include courses stay in Processing until physical items ship. If disabled, enrollment follows Edwiser default (when the order is <strong>Completed</strong>).', 'edwiser-enroll-on-processing' ),
+			'desc'     => __( 'Run Moodle enrollment when the order reaches <strong>Processing</strong> (paid / ready to fulfill). Enable when orders that include courses remain in <strong>Processing</strong> until physical items ship. If disabled, enrollment follows the Edwiser default (when the order is <strong>Completed</strong>).', 'edwiser-enroll-on-processing' ),
 			'id'       => EB_EOP_SETTING_ID,
 			'default'  => 'no',
 			'type'     => 'checkbox',
