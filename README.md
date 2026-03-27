@@ -22,6 +22,14 @@ This **must-use plugin** adds an optional enrollment on **Processing**, using Ed
 3. Under **Course enrollment timing**, enable **Enroll when order is Processing**.  
 4. Test with a course order that stays in Processing (e.g. mixed with physical products).
 
+## Disclaimer
+
+This software is provided **as-is**, without warranty of any kind. Mindful Design accepts **no responsibility** for any loss, damage, or problems that may result from using it—including incorrect enrollments, conflicts with other plugins or themes, or issues with Edwiser Bridge, WooCommerce, or Moodle.
+
+**Please test thoroughly** on a staging or clone of your site before relying on it in production.
+
+If you spot a problem or have feedback, we would be glad to hear from you: [support@mindfuldesign.me](mailto:support@mindfuldesign.me), or [open an issue](https://github.com/MindfulDesign-me/edwiser-enroll-on-processing/issues) on GitHub.
+
 ## License
 
 GPL-2.0-or-later (same family as WordPress).

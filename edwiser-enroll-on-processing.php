@@ -5,11 +5,14 @@
  * Description: Optionally enrolls Moodle courses when a WooCommerce order reaches Processing (Edwiser Bridge Pro). Settings: Edwiser Bridge → Settings → Woo Integration.
  * Author: Mindful Design
  * Author URI: https://mindfuldesign.me
- * Version: 1.0.0
+ * Version: 1.0.1
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  *
  * @package Edwiser_Enroll_On_Processing
+ *
+ * Disclaimer: Provided as-is without warranty; test thoroughly before production.
+ * Report issues: https://github.com/MindfulDesign-me/edwiser-enroll-on-processing/issues
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
